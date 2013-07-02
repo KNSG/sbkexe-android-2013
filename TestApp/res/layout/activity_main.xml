@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    -->
+    
+    <TextView
+        android:id="@+id/timelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:gravity="left|center_vertical"
+        android:layout_marginRight="10pt"
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/timevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:gravity="left|center_vertical"
+        android:layout_alignBottom="@+id/timelabel"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/timelabel" />
+
+    <TextView
+        android:id="@+id/latitudelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude" 
+        android:gravity="left|center_vertical"
+        android:layout_marginRight="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timelabel" />
+	<TextView
+        android:id="@+id/latitudevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:gravity="left|center_vertical"
+        android:layout_alignBottom="@+id/latitudelabel"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/latitudelabel" />
+	
+	<TextView
+        android:id="@+id/longitudelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude" 
+        android:gravity="left|center_vertical"
+        android:layout_marginRight="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/latitudelabel" />
+	<TextView
+        android:id="@+id/longitudevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:gravity="left|center_vertical"
+        android:layout_alignBottom="@+id/longitudelabel"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/longitudelabel" />
+	
+	<TextView
+        android:id="@+id/filepathlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filepath" 
+        android:gravity="left|center_vertical"
+        android:layout_marginRight="10pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/longitudelabel" />
+	<TextView
+	    android:id="@+id/filepathvalue"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/empty"
+	    android:textAppearance="?android:attr/textAppearanceSmall"
+		android:gravity="left|center_vertical"
+        android:layout_alignBottom="@+id/filepathlabel"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/filepathlabel" />
+				
+</RelativeLayout>
