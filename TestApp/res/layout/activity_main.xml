@@ -8,13 +8,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <!--
+    <!-- remove from here -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-    -->
+    <!-- remove to here -->
     
+    <!--  remove this line 
     <TextView
         android:id="@+id/timelabel"
         android:layout_width="wrap_content"
@@ -91,5 +92,6 @@
         android:layout_alignBottom="@+id/filepathlabel"
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@+id/filepathlabel" />
-				
+	remove this line -->
+	 				
 </RelativeLayout>

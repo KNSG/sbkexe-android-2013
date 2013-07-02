@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- remove this line
     <string name="app_name_sbkexe">GPS App</string>
     <string name="time">time</string>
     <string name="latitude">latitude</string>
@@ -12,5 +13,6 @@
     <string name="filepath">filepath</string>
     <string name="empty"></string>
     <string name="zero">0</string>
-    
+    remove this line -->
+     
 </resources>

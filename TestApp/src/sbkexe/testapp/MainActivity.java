@@ -1,6 +1,12 @@
 package sbkexe.testapp;
 
 
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+
+/* remove this line **********
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -10,19 +16,20 @@ import java.util.Date;
 
 import org.apache.http.impl.cookie.DateUtils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
-import android.view.Menu;
 import android.widget.TextView;
 
-public class MainActivity extends Activity implements LocationListener {
+*** remove this line ***/
 
+
+public class MainActivity extends Activity  // implements LocationListener 
+
+{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -37,7 +44,8 @@ public class MainActivity extends Activity implements LocationListener {
 	}
 	
 	
-	
+/* remove this line *********
+
 	// //////////////////////////////////////////////////////////////
 	// additional implementation 
 	// //////////////////////////////////////////////////////////////
@@ -122,4 +130,6 @@ public class MainActivity extends Activity implements LocationListener {
 	public void onProviderDisabled(String provider) {
 		// nothing to do; this method will be called when GPS or WiFi positioning functionality is disabled
 	}
+	
+** remove this line ********** */
 }
