@@ -8,13 +8,13 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
     
-    <!-- 
+    <!-- remove this line 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
     <uses-permission android:name="android:permission.READ_EXTERNAL_STORAGE" />	
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-	-->
+	remove this line -->
 	
     <application
         android:allowBackup="true"

@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 
-/* remove this line **********
+/* *** remove this line ***
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -27,7 +27,10 @@ import android.widget.TextView;
 *** remove this line ***/
 
 
-public class MainActivity extends Activity  // implements LocationListener 
+public class MainActivity extends Activity  
+/* remove this line
+ implements LocationListener 
+ * remove this line */
 
 {
 	@Override
@@ -44,7 +47,7 @@ public class MainActivity extends Activity  // implements LocationListener
 	}
 	
 	
-/* remove this line *********
+/* *** remove this line ***
 
 	// //////////////////////////////////////////////////////////////
 	// additional implementation 
@@ -87,8 +90,12 @@ public class MainActivity extends Activity  // implements LocationListener
 		catch(IOException exp) { Log.e("onStart()","exception",exp); }
 		manager.removeUpdates(this);
 	}
-	
-	
+
+* *** remove this line *** */
+
+/* *** remove this line *** 
+ 
+
 	protected void updateView(String time,double lon,double lat) {
 		TextView.class.cast(findViewById(R.id.timevalue)).setText(time);
 		TextView.class.cast(findViewById(R.id.longitudevalue)).setText(String.valueOf(lon));
